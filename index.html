@@ -1,225 +1,62 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eye World Hospital & Top Care Clinics</title>
-    <style>
-        :root {
-            --primary-color: #0d2c54;
-            --secondary-color: #00a896;
-            --accent-color: #c9a66b;
-            --text-dark: #2b2d42;
-            --text-light: #f8f9fa;
-            --bg-light: #f4f7f6;
-            --card-bg: #ffffff;
-        }
+تمام، تم تعديل المفهوم والالتزام بالأسماء الصحيحة بناءً على توجيهك (اسم المستشفى بالإنجليزية **Eye World Hospital** وبالعربية **مستشفى دنيا العيون**).
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+إليك الجدول المحدث لـ **9 يوليو** بالتنسيق الـ HTML المناسب لعرضه بشكل احترافي:
 
-        body {
-            background-color: var(--bg-light);
-            color: var(--text-dark);
-            line-height: 1.8;
-            padding: 40px 20px;
-        }
+```html
+<table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; margin: 20px 0;">
+    <thead>
+        <tr style="background-color: #f2f2f2; border-bottom: 2px solid #ddd;">
+            <th style="padding: 12px; text-align: left; font-weight: bold;">Log Timestamp</th>
+            <th style="padding: 12px; text-align: left; font-weight: bold;">Lead ID</th>
+            <th style="padding: 12px; text-align: right; font-weight: bold;">Patient Name</th>
+            <th style="padding: 12px; text-align: left; font-weight: bold;">Moderator Name</th>
+            <th style="padding: 12px; text-align: left; font-weight: bold;">Action / Event</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="border-bottom: 1px solid #ddd;">
+            <td style="padding: 12px;">2026-07-09 15:51:25</td>
+            <td style="padding: 12px;">178360148501</td>
+            <td style="padding: 12px; text-align: right; direction: rtl;">مالك محمود فاروق</td>
+            <td style="padding: 12px;">Menna</td>
+            <td style="padding: 12px;"><span style="background-color: #e6f4ea; color: #137333; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Added Lead</span></td>
+        </tr>
+        <tr style="border-bottom: 1px solid #ddd;">
+            <td style="padding: 12px;">2026-07-09 15:53:04</td>
+            <td style="padding: 12px;">1783601584853</td>
+            <td style="padding: 12px; text-align: right; direction: rtl;">هبة نصرالدين محمد</td>
+            <td style="padding: 12px;">Menna</td>
+            <td style="padding: 12px;"><span style="background-color: #e6f4ea; color: #137333; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Added Lead</span></td>
+        </tr>
+        <tr style="border-bottom: 1px solid #ddd;">
+            <td style="padding: 12px;">2026-07-09 19:23:35</td>
+            <td style="padding: 12px;">1783614215296</td>
+            <td style="padding: 12px; text-align: right; direction: rtl;">فتحية احمد عمر</td>
+            <td style="padding: 12px;">Menna</td>
+            <td style="padding: 12px;"><span style="background-color: #e6f4ea; color: #137333; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Added Lead</span></td>
+        </tr>
+        <tr style="border-bottom: 1px solid #ddd;">
+            <td style="padding: 12px;">2026-07-09 23:39:46</td>
+            <td style="padding: 12px;">1783629586015</td>
+            <td style="padding: 12px; text-align: right; direction: rtl;">باسم أحمد</td>
+            <td style="padding: 12px;">Menna</td>
+            <td style="padding: 12px;"><span style="background-color: #e6f4ea; color: #137333; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Added Lead</span></td>
+        </tr>
+        <tr style="border-bottom: 1px solid #ddd;">
+            <td style="padding: 12px;">2026-07-09 23:41:19</td>
+            <td style="padding: 12px;">1783629679932</td>
+            <td style="padding: 12px; text-align: right; direction: rtl;">محمود عثمان</td>
+            <td style="padding: 12px;">Menna</td>
+            <td style="padding: 12px;"><span style="background-color: #e6f4ea; color: #137333; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Added Lead</span></td>
+        </tr>
+        <tr style="border-bottom: 1px solid #ddd;">
+            <td style="padding: 12px;">2026-07-09 23:42:42</td>
+            <td style="padding: 12px;">1783629762953</td>
+            <td style="padding: 12px; text-align: right; direction: rtl;">فاطمة</td>
+            <td style="padding: 12px;">Menna</td>
+            <td style="padding: 12px;"><span style="background-color: #e6f4ea; color: #137333; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Added Lead</span></td>
+        </tr>
+    </tbody>
+</table>
 
-        .container {
-            max-width: 1100px;
-            margin: 0 auto;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 50px;
-        }
-
-        header h1 {
-            color: var(--primary-color);
-            font-size: 2.5rem;
-            margin-bottom: 15px;
-            font-weight: 700;
-        }
-
-        header p {
-            color: #666;
-            font-size: 1.1rem;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px;
-        }
-
-        @media (max-width: 768px) {
-            .grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        .card {
-            background: var(--card-bg);
-            border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-            padding: 40px;
-            text-align: center;
-            border-top: 5px solid var(--primary-color);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-        }
-
-        .card.top-care {
-            border-top-color: var(--secondary-color);
-        }
-
-        .logo-container {
-            height: 120px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 25px;
-        }
-
-        .logo-container img {
-            max-height: 100%;
-            max-width: 100%;
-            object-fit: contain;
-        }
-
-        .card h2 {
-            font-size: 1.8rem;
-            color: var(--primary-color);
-            margin-bottom: 20px;
-        }
-
-        .card.top-care h2 {
-            color: var(--secondary-color);
-        }
-
-        .about-text {
-            color: #555;
-            font-size: 1.05rem;
-            text-align: justify;
-            margin-bottom: 30px;
-            padding: 0 10px;
-        }
-
-        .links-title {
-            font-size: 1.1rem;
-            font-weight: bold;
-            color: var(--text-dark);
-            margin-bottom: 15px;
-            text-align: right;
-            border-right: 3px solid var(--accent-color);
-            padding-right: 10px;
-        }
-
-        .btn-group {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-
-        .btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 12px 20px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1rem;
-            transition: all 0.2s ease;
-            color: var(--text-light);
-        }
-
-        .btn-facebook { background-color: #1877f2; }
-        .btn-facebook:hover { background-color: #145dbf; }
-
-        .btn-tiktok { background-color: #010101; }
-        .btn-tiktok:hover { background-color: #252525; }
-
-        .btn-youtube { background-color: #ff0000; }
-        .btn-youtube:hover { background-color: #cc0000; }
-
-        .btn-instagram { background-color: #e1306c; }
-        .btn-instagram:hover { background-color: #b82354; }
-
-        .btn-website { background-color: var(--primary-color); }
-        .btn-website:hover { background-color: #071931; }
-        
-        .card.top-care .btn-website { background-color: var(--secondary-color); }
-        .card.top-care .btn-website:hover { background-color: #007d6f; }
-
-        footer {
-            text-align: center;
-            margin-top: 60px;
-            color: #888;
-            font-size: 0.9rem;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="container">
-        <header>
-            <h1>منصاتنا الرقمية</h1>
-            <p>مرحباً بكم في شبكة الرعاية الطبية المتكاملة للعيون والصحة العامة</p>
-        </header>
-
-        <div class="grid">
-            <!-- Eye World Hospital Card -->
-            <div class="card">
-                <div class="logo-container">
-                    <img src="https://ik.imagekit.io/weo7pcw8v/ChatGPT%20Image%20May%207,%202026,%2003_08_22%20AM.png?updatedAt=1778118962053" alt="Eye World Hospital Logo">
-                </div>
-                <h2>مستشفى عالم العيون (Eye World Hospital)</h2>
-                <p class="about-text">
-                    تعتبر مستشفى عالم العيون تحت إشراف الأستاذ الدكتور إيهاب سعد، أحد الصروح الطبية الرائدة والمتخصصة في تقديم أحدث الخدمات الطبية والجراحية لطب وجراحة العيون في المنطقة. نحن نلتزم بأعلى معايير الجودة العالمية عبر توفير نخبة من الكوادر الطبية الاستشارية، واعتماد أحدث التقنيات التشخيصية والعلاجية لضمان سلامة وصحة عيونكم، بدءاً من الفحوصات الدورية ووصولاً إلى أدق العمليات الجراحية المعقدة.
-                </p>
-                
-                <div class="links-title">روابط التواصل والمتابعة:</div>
-                <div class="btn-group">
-                    <a href="https://eyeworldhospital.com/ar" target="_blank" class="btn btn-website">الموقع الإلكتروني الرسمي</a>
-                    <a href="https://www.facebook.com/share/1bncu1wrBb/?mibextid=wwXIfr" target="_blank" class="btn btn-facebook">فيسبوك - الصفحة الرئيسية</a>
-                    <a href="https://www.facebook.com/share/1CbEUdvfYH/?mibextid=wwXIfr" target="_blank" class="btn btn-facebook">فيسبوك - د. إيهاب سعد</a>
-                    <a href="https://www.tiktok.com/@eyeworldhospital?_r=1&_t=ZS-95hSULTgBIi" target="_blank" class="btn btn-tiktok">تيك توك</a>
-                    <a href="https://youtube.com/@-eyeworldhospil1?si=lie4EFHFVxe-Yiit" target="_blank" class="btn btn-youtube">يوتيوب</a>
-                </div>
-            </div>
-
-            <!-- Top Care Clinics Card -->
-            <div class="card top-care">
-                <div class="logo-container">
-                    <img src="https://ik.imagekit.io/weo7pcw8v/ChatGPT%20Image%20May%207,%202026,%2002_56_37%20AM.png?updatedAt=1778118960100" alt="Top Care Clinics Logo">
-                </div>
-                <h2>عيادات توب كير (Top Care Clinics)</h2>
-                <p class="about-text">
-                    تقدم عيادات توب كير منظومة متكاملة من الرعاية الصحية والخدمات الطبية المتميزة في مختلف التخصصات. نحن نهدف إلى توفير تجربة علاجية استثنائية ترتكز على الاهتمام الفائق بالمريض، من خلال استقطاب كبار الأطباء والاستشاريين وتجهيز العيادات بأحدث الوسائل والأجهزة الطبية لتقديم أدق التشخيصات وأفضل الخطط العلاجية التي تضمن لكم ولعائلاتكم حياة صحية ومستقرة.
-                </p>
-                
-                <div class="links-title">روابط التواصل والمتابعة:</div>
-                <div class="btn-group">
-                    <a href="https://www.facebook.com/share/1CQxfrr1hF/?mibextid=wwXIfr" target="_blank" class="btn btn-facebook">فيسبوك - العيادات</a>
-                    <a href="https://www.instagram.com/top_careclinic?igsh=ajN4OG9tb280ejJ2" target="_blank" class="btn btn-instagram">إنستغرام</a>
-                </div>
-            </div>
-        </div>
-
-        <footer>
-            <p>&copy; 2026 جميع الحقوق محفوظة لشبكة مستشفى عالم العيون وعيادات توب كير</p>
-        </footer>
-    </div>
-
-</body>
-</html>
+```
